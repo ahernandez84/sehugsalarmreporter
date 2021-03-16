@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AlarmType>
+  <Type>
+    <Name>Tag Exit</Name>
+    <Critical>Yes</Critical>
+    <Note>Be cautious when opening stairwells doors and ensuring patients do not enter elevator lobbies would reduce this alarm.</Note>
+  </Type>
+  <Type>
+    <Name>Band Detached</Name>
+    <Critical>No</Critical>
+    <Note>Tag tamper or improperly applied tag alarm was cleared, and the tag still isn't applied properly.</Note>
+  </Type>
+  <Type>
+    <Name>Auto Discharged</Name>
+    <Critical>Yes</Critical>
+    <Note>This alarm is generated when a tamper alarm has been active for more than 7 minutes.  Tag is no longer supervised.</Note>
+  </Type>
+  <Type>
+    <Name>Tag Loose</Name>
+    <Critical>Yes</Critical>
+    <Note>Regular tag checks should be performed to ensure tags are adjusted as patient weight loss occurs.</Note>
+  </Type>
+  <Type>
+    <Name>Tag Tamper</Name>
+    <Critical>Yes</Critical>
+    <Note>Make sure tag is discharged before the band is cut.</Note>
+  </Type>
+  <Type>
+    <Name>Check Tag Tightness</Name>
+    <Critical>Yes</Critical>
+    <Note>Regular tag checks should be performed to ensure tags are adjusted as patient weight loss occurs.</Note>
+  </Type>
+  <Type>
+    <Name>Admit Acknowledgement</Name>
+    <Critical>No</Critical>
+    <Note>Acknowledging a tag within the defined time would reduce these notifications.</Note>
+  </Type>
+  <Type>
+    <Name>Improperly Applied Tag</Name>
+    <Critical>Yes</Critical>
+    <Note>The tag band wasn't applied properly during patient admit.</Note>
+  </Type>
+  <Type>
+    <Name>Tag Supervision</Name>
+    <Critical>Yes</Critical>
+    <Note>Excessive alarms can indicate an issue with unit coverage or tag has exceeded it's life expectancy.</Note>
+  </Type>
+</AlarmType>
